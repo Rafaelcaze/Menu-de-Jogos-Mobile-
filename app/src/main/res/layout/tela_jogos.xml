@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:weightSum="3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <ImageButton
+            android:id="@+id/btnTela_jogos_L1xC1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="40dp"
+            android:layout_weight="1"
+            android:background="@color/design_default_color_primary"
+            android:scaleType="fitXY"
+            android:src="@drawable/memoria"
+            android:contentDescription="@string/descri_o_da_imagem_do_bot_o"
+            tools:ignore="NestedWeights" />
+
+
+        <ImageView
+            android:id="@+id/btnTela_jogos_L1xC2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="40dp"
+            android:layout_weight="1"
+            android:background="@color/design_default_color_primary"
+            android:scaleType="fitXY"
+            android:src="@drawable/numero1"
+            android:contentDescription="botao game 2"
+            tools:ignore="NestedWeights" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <ImageView
+            android:id="@+id/imgMatriz3x2_L2xC1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="40dp"
+            android:layout_weight="1"
+            android:background="@color/design_default_color_primary"
+            android:scaleType="fitXY"
+            tools:ignore="NestedWeights"
+            android:contentDescription="ImagemVaziaL2xC1"/>
+
+        <ImageView
+            android:id="@+id/imgMatriz3x2_L2xC2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="40dp"
+            android:layout_weight="1"
+            android:background="@color/design_default_color_primary"
+            android:scaleType="fitXY"
+            android:contentDescription="ImagemVaziaL2xC2"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <ImageView
+            android:id="@+id/imgMatriz3x2_L3xC1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="40dp"
+            android:layout_weight="1"
+            android:background="@color/design_default_color_primary"
+            android:scaleType="fitXY"
+            android:contentDescription="ImagemVaziaL3xC1"/>
+
+
+        <ImageView
+            android:id="@+id/imgMatriz3x2_L3xC2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="40dp"
+            android:layout_weight="1"
+            android:background="@color/design_default_color_primary"
+            android:scaleType="fitXY"
+            android:contentDescription="ImagemVaziaL3xC2"/>
+    </LinearLayout>
+</LinearLayout>
