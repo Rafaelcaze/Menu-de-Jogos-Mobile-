@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Jogo da Memória</string>
     <string name="descri_o_da_imagem_do_bot_o"> botão imagem memoria</string>
+    <string name="botao_game_2">botao game 2</string>
 </resources>

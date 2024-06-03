@@ -35,10 +35,8 @@ public class MainActivity2 extends AppCompatActivity {
         btnSair.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                //Fechar o aplicativo
-                finish();
-
+                Intent abreTela = new Intent(getApplication(), Activity_menu.class);
+                startActivity(abreTela);
             }
         });
 
