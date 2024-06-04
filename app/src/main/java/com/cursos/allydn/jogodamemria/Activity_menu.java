@@ -32,8 +32,8 @@ public class Activity_menu extends AppCompatActivity {
         Tela_jogos_L1xC2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent abreTela2 = new Intent(Activity_menu.this, MainActivity2.class);
-                startActivity(abreTela2);
+                Intent abreTela = new Intent(Activity_menu.this, MainActivity2.class);
+                startActivity(abreTela);
             }
         });
     }
